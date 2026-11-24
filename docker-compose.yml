@@ -9,22 +9,22 @@ x-common:
   panel:
     &panel-environment
     # This URL should be the URL that your reverse proxy routes to the panel server
-    APP_URL: "https://3000-agra4uh323pkfplzv7acd44cs4.instabox.tech"
+    APP_URL: "https://pterodactyl.example.com"
     # A list of valid timezones can be found here: http://php.net/manual/en/timezones.php
     APP_TIMEZONE: "UTC"
-    APP_SERVICE_AUTHOR: "dheriap248@gmail.com"
+    APP_SERVICE_AUTHOR: "noreply@example.com"
     TRUSTED_PROXIES: "*" # Set this to your proxy IP
     # Uncomment the line below and set to a non-empty value if you want to use Let's Encrypt
     # to generate an SSL certificate for the Panel.
     # LE_EMAIL: ""
   mail:
     &mail-environment
-    MAIL_FROM: "dheriap248@gmail.com"
+    MAIL_FROM: "noreply@example.com"
     MAIL_DRIVER: "smtp"
     MAIL_HOST: "mail"
     MAIL_PORT: "1025"
-    MAIL_USERNAME: "kynoey"
-    MAIL_PASSWORD: "kynoey"
+    MAIL_USERNAME: ""
+    MAIL_PASSWORD: ""
     MAIL_ENCRYPTION: "true"
  
 #
